@@ -25,7 +25,7 @@ public class ImageUtils {
             .showImageOnLoading(R.mipmap.ic_launcher)
             .showImageOnFail(R.mipmap.ic_launcher)
             .showImageForEmptyUri(R.mipmap.ic_launcher)
-            .cacheInMemory(false)
+            .cacheInMemory(true)
             .cacheOnDisk(true)
             .bitmapConfig(Bitmap.Config.ALPHA_8)
             .imageScaleType(ImageScaleType.EXACTLY)

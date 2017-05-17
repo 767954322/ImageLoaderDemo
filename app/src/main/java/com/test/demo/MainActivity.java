@@ -1,18 +1,14 @@
 package com.test.demo;
 
-import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private final String URL_IMAGE = "http://pic.qiantucdn.com/58pic/13/85/85/73T58PIC9aj_1024.jpg!" +
-            "/watermark/url/L3dhdGVybWFyay12MS4zLnBuZw==/align/center";
+    private final String URL_IMAGE = "http://pic32.nipic.com/20130827/12906030_123121414000_2.png";
     private ImageView iv_imageview;
     private Button bt_halfround;
     private Button bt_rectangle;
